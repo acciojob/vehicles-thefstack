@@ -4,6 +4,10 @@ public class Boat implements WaterVehicle {
     private String name;
     private int capacity;
     
+    public Boat() {
+        this.name = "";
+        this.capacity = 0;
+    }
 
     // Parameterized constructor
     public Boat(String name, int capacity) {
