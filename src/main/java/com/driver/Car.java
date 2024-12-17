@@ -30,4 +30,31 @@ public class Car extends Vehicle {
         move(newSpeed, newDirection); // Reuse move method from Vehicle
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
     }
+    @Override
+    public String getName() {
+        // TODO Auto-generated method stub
+        return super.getName();
+    }
+    public int getDoors() {
+        return doors;
+    }
+    public int getGears() {
+        return gears;
+    }
+    public int getWheels() {
+        return wheels;
+    }
+    public boolean isManual() {
+        return isManual;
+    }
+    public String getType() {
+        return type;
+    }
+    public int getSeats() {
+        return seats;
+    }
+    public int getCurrentGear() {
+        return currentGear;
+    }
+    
 }

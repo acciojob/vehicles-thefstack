@@ -7,6 +7,23 @@ public class F1 extends Car {
         super(name, 4, 2, 6, isManual, "F1", 1); // Use default values for wheels, doors, etc.
 
     }
+    @Override
+    public String getName() {
+        // TODO Auto-generated method stub
+        return super.getName();
+    }
+    @Override
+    public boolean isManual() {
+        // TODO Auto-generated method stub
+        return super.isManual();
+    }
+
+    @Override
+    public int getCurrentGear() {
+        // TODO Auto-generated method stub
+        return super.getCurrentGear();
+    }
+    
 
     public void accelerate(int rate){
         int newSpeed = getCurrentSpeed() + rate; // Calculate new speed
